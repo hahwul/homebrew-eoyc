@@ -8,7 +8,7 @@ class Eoyc < Formula
 
   def install
     system "shards install"
-    system "shards build"
+    system "shards build --release --no-debug"
     bin.install "bin/eoyc"
   end
 
