@@ -1,9 +1,9 @@
 class Eoyc < Formula
   desc "Encoding Only Your Choices"
   homepage "https://github.com/hahwul/eoyc"
-  url "https://github.com/hahwul/eoyc/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "89235f88697fd3bc5ef3c62d81fdb1461af8b7f3bd99b0365efcf404cb9d4b5b"
-  version "0.1.0"
+  url "https://github.com/hahwul/eoyc/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a2a8c9f3a318bb9e32bf0a830bfc693e526f7b7cf89f1463bb95af80d1f659ea"
+  version "0.1.1"
   depends_on "crystal"
 
   def install
